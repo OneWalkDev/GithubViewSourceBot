@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32407.343
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GithubViewSourceBot", "GithubViewSourceBot\GithubViewSourceBot.csproj", "{7C830D87-1E0E-4F19-B76D-5EBA50706F7F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7C830D87-1E0E-4F19-B76D-5EBA50706F7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C830D87-1E0E-4F19-B76D-5EBA50706F7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C830D87-1E0E-4F19-B76D-5EBA50706F7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C830D87-1E0E-4F19-B76D-5EBA50706F7F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EB75B845-A08F-4D95-9683-642DF7C78B90}
+	EndGlobalSection
+EndGlobal
