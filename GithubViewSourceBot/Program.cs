@@ -58,12 +58,12 @@ namespace GithubViewSourceBot {
                 var path = string.Join("/", pathes);
                 raw_url += path;
 
-                if (uri.Fragment == string.Empty) return;
+                if (uri.Fragment == string.Empty || uri.Fragment == "#") return;
 
                 var fragment = uri.Fragment.Replace("#", "").Replace("L", "");
                 var fragment_split = fragment.Split('-');
 
-                var start = uri.Fragment.Contains("-") ? fragment_split[0] : fragment; ;
+                var start = uri.Fragment.Contains("-") ? fragment_split[0] : fragment;
                 var end = uri.Fragment.Contains("-") ? fragment_split[1] : start;
                 var send_message = "```" + ext + "\n";
 
